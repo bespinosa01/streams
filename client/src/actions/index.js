@@ -15,4 +15,7 @@ export const signOut = () => {
 
 };
 
+export const createStream = (formValues) => dispatch =>{
+	streams.post('/streams',formValues);
+};
 
